@@ -11,7 +11,7 @@
 import os
 import logging
 from pathlib import Path
-from module.sosilogikk import read_sosi_file, sosi_to_geodataframe, write_geodataframe_to_sosi
+from sosi.sosilogikk import read_sosi_file, sosi_to_geodataframe, write_geodataframe_to_sosi
 
 # Konfigurer logging
 logging.basicConfig(
